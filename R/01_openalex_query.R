@@ -7,7 +7,7 @@
 # To run this script:
 #   1. Create a free OpenAlex account at https://openalex.org
 #   2. Copy `.env.example` to `.env` in the project root
-#   3. Replace the placeholder with your own API key
+#   3. In new '.env' replace the placeholder with your own API key and save.
 # Never paste your API key directly into this script.
 
 
@@ -144,7 +144,7 @@ block2_watershed <- paste(
 # Runs count check first, retrieves if count <= max_records
 # Tags each result with intervention_type
 
-run_search <- function(block2, intervention_label, max_records = 5000) {
+run_search <- function(block2, intervention_label, max_records = 30000) {
   
   full_query <- paste0("(", block1, ") AND (", block2, ") AND (", block3, ")")
   
@@ -246,5 +246,5 @@ cat("Records appearing in multiple searches:",
 
 # Export ----------------------------------------------------------------------
 
-saveRDS(all_results_dedup, "openalex_results.rds")
-write.csv(all_results_dedup, "openalex_results.csv", row.names = FALSE)
+saveRDS(all_results_dedup, "data/processed/openalex_results.rds")
+write.csv(all_results_dedup, "data/processed/openalex_results.csv", row.names = FALSE)
