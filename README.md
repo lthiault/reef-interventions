@@ -1,5 +1,5 @@
 # reef-interventions
-Litterature review of the social-ecological outcomes of coral reef interventions
+Systematic literature review of the social-ecological outcomes of coral reef interventions
 
 
 > Code and data repository accompanying two peer-reviewed publications.
