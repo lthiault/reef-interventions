@@ -1,6 +1,6 @@
-intervention_type,n_records,search_date,status
-Area-based conservation,1551,2026-03-26,OK
-Fisheries management,646,2026-03-26,OK
-Watershed management,324,2026-03-26,OK
-Bioengineering,474,2026-03-26,OK
-Socioeconomic development,267,2026-03-26,OK
+intervention_type,n_eco,n_geo,n_total_prededup,search_date,status
+Area-based conservation,3578,1602,5180,2026-03-26,OK
+Fisheries management,1994,623,2617,2026-03-26,OK
+Watershed management,2075,217,2292,2026-03-26,OK
+Bioengineering,2021,174,2195,2026-03-26,OK
+Socioeconomic development,1824,758,2582,2026-03-26,OK
